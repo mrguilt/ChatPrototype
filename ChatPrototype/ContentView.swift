@@ -16,8 +16,8 @@ struct ContentView: View {
                 .background(Color.green, in: Rectangle())
 
             Text("I am writing Swift code for iOS")
-//              .padding()
-                .background(Color.orange, in: RoundedRectangle(cornerRadius: 5))
+              .padding(50)
+              .background(Color.orange, in: RoundedRectangle(cornerRadius: 5))
         }
         .padding()
     }
